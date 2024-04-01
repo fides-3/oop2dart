@@ -22,7 +22,7 @@ class Teacher{
 class School{
   void createObjectsAndPrintInfo(){
     Student student=Student('Fides Lucky',20,'10th');
-    Teacher teacher=Teacher('Ms. Miriam',35,'English');
+    Teacher teacher=Teacher('Ms. Miriam',35,'Physics');
 
     student.printStudentInfo();
     teacher.printTeacherInfo();
